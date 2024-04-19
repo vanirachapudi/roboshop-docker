@@ -23,6 +23,9 @@ services:
     depends_on:
     - catalogue
 
+  redis:
+    image: redis
+
   user:
     image: user:1
     container_name: user
