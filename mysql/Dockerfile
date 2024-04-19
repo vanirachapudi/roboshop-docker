@@ -5,4 +5,4 @@ ENV MYSQL_ROOT_PASSWORD=RoboShop@1 \
     MYSQL_USER=shipping \
     MYSQL_PASSWORD=RoboShop@1
 
-COPY  scriprs/*   /docker-entrypoint-initdb.d/
+COPY  scripts/*   /docker-entrypoint-initdb.d/
